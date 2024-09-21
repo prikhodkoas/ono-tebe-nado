@@ -10,6 +10,11 @@ body {
   font-family: Raleway, sans-serif;
 }
 
+address {
+  font-style: normal;
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -27,6 +32,8 @@ blockquote {
 
 a {
   color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 img {

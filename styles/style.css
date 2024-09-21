@@ -1,1 +1,149 @@
-/* место для вашего кода */
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 148px 1fr;
+    grid-template-rows: 1fr;
+    height: 293px;
+    width: 100%;
+    padding: 92px 0 95px 0;
+}
+
+.header__menu {
+    align-self: center;
+    justify-self: start;
+    padding-left: 19px;
+}
+
+.header__links-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: circle;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.header__links-list-item {
+    margin-left: 33px;
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+}
+
+.header__link {
+
+}
+
+.header__link_active {
+    text-decoration: none;
+}
+
+.header__logo {
+    display: block;
+}
+
+.header__logo-image {
+    width: 148px;
+    height: 105px;
+}
+
+.address {
+    justify-self: end;
+    align-self: center;
+    padding-right: 85px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.header__address {
+    display: flex;
+    flex-direction: column;
+}
+
+.cover {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 757px;
+    background-image: url("../images/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -137px 1px;
+    z-index: -2;
+    color: #fff;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cover__title {
+    display: flex;
+    flex-direction: column;
+    padding-top: 164px;
+    padding-left: 50px;
+    font-size: 100px;
+    letter-spacing: 0.3em;
+}
+
+.big-letter-spacing {
+    letter-spacing: 0.6em;
+}
+
+.aligned-text {
+}
+
+.aligned-text_center {
+    padding-left: 286px;
+    line-height: 140%;
+}
+
+.aligned-text_right {
+    padding-left: 584px;
+    line-height: 100%;
+}
+
+.cover__description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 51px 78px;
+}
+
+.cover__description-text {
+    display: block;
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    word-spacing: 0.9em;
+}
+
+.cover__description-text_spacing2 {
+    word-spacing: 0.8em;
+}
+
+.cover__description-text_spacing3 {
+    word-spacing: 0.9em;
+}
+
+.bet-button {
+    width: 256px;
+    height: 51px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+}
