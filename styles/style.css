@@ -85,12 +85,13 @@
 }
 
 .cover__title {
-    display: flex;
-    flex-direction: column;
     padding-top: 164px;
-    padding-left: 50px;
     font-size: 100px;
     letter-spacing: 0.3em;
+}
+
+.cover__text {
+    display: block;
 }
 
 .big-letter-spacing {
@@ -98,15 +99,17 @@
 }
 
 .aligned-text {
+    padding-left: 50px;
 }
 
 .aligned-text_center {
-    padding-left: 286px;
+    text-align: center;
     line-height: 140%;
 }
 
 .aligned-text_right {
-    padding-left: 584px;
+    padding-right: 20px;
+    text-align: right;
     line-height: 100%;
 }
 
