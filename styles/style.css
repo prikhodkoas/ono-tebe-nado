@@ -243,3 +243,61 @@
 .card_type_picture {
     background-image: url("../images/card-lot-03.jpg");
 }
+
+.about {
+    padding: 182px 24px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+    "logo title title"
+    ". info info";
+    column-gap: 24px;
+    row-gap: 10px;
+}
+
+.about__column {
+
+}
+
+.about__logo {
+    width: 240px;
+    height: 240px;
+    justify-self: center;
+    align-content: center;
+    grid-area: logo;
+    background-color: black;
+    border-radius: 120px;
+}
+
+.about__logo-image {
+    height: 47.5%;
+    
+}
+
+.about__title {
+    grid-area: title;
+    padding: 6px 0 0 0;
+    align-self: center;
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.about__text {
+    grid-area: info;
+    padding-right: 5px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    word-spacing: 0;
+    /*line-height: 24px;*/
+    text-align: left;
+}
+
+.about__text p {
+    padding-bottom: 22px;
+}
