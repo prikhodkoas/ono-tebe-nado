@@ -58,7 +58,7 @@
 
 .cover {
   position: relative;
-  z-index: -2;
+  z-index: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -136,6 +136,8 @@
 }
 
 .bet-button {
+  position: relative;
+  z-index: 1;
   width: 256px;
   height: 51px;
   border: 1px solid #fff;
