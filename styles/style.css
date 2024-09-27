@@ -62,7 +62,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 757px;
+  /*height: 757px;*/
   color: #fff;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
@@ -72,6 +72,7 @@
 
 .overlay {
   position: absolute;
+  inset: 0;
   z-index: 0;
   width: 100%;
   height: 100%;
@@ -115,7 +116,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50px 51px 78px;
+  padding: 134px 50px 51px 78px;
 }
 
 .cover__description-text {
@@ -142,7 +143,6 @@
   height: 51px;
   border: 1px solid #fff;
   color: #fff;
-  font-family: Raleway;
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
